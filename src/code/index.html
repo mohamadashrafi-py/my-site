@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style-rtl.css">
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+
+    <title>Document</title>
+</head>
+<style>
+    .text-mid {
+        font-size: medium;
+    }
+
+    .text-small {
+        font-size: small;
+    }
+
+    .text-large {
+        font-size: large;
+    }
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="light-mode-item navbar-brand-item" src="assets/images/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">وبلاگ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            دوره ها
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">فرانت</a></li>
+                            <li><a class="dropdown-item" href="#">بک اند</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">فول استک</a></li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تماس با ما</a>
+                    </li>
+                    </li>
+                </ul>
+                <form class="d-flex position-relative" role="search">
+                    <input class="form-control pe-5 bg-transparent" type="search" placeholder="جستجو ..."
+                        aria-label="Search" />
+                    <button
+                        class="bg-transparent p-2 position-absolute top-50 end-0 translate-middle-y border-0 text-primary-hover text-reset"
+                        type="submit">
+                        <i class="fas fa-search fs-6 "></i>
+                    </button>
+                </form>
+                <div class="avatar mx-3">
+                    <img class="avatar-img rounded-circle" src="assets/images/avatar/01.jpg" alt="avatar">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid my-5">
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-lg-5 col-md-6 text-center mb-4 mb-md-0">
+                <h1 class="display-6 fw-bold mb-3">مونگارد</h1>
+                <p class="lead mb-4 text-mid">هر چیزی که برای برنامه نویس پایتون شدن نیاز دارید..! این یک متن نمونه
+                    است که زیر عنوان قرار گرفته است</p>
+                <button type="button" class="btn btn-primary btn-lg px-4 py-2">دکمه اصلی</button>
+            </div>
+            <div class="col-lg-5 col-md-6 text-center">
+                <img src="assets/images/bg/01.jpg" alt="مونگارد" class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row g-4">
+            <!-- Counter item -->
+            <div class="col-sm-6 col-xl-3">
+                <div class="d-flex justify-content-center align-items-center p-4 bg-warning bg-opacity-15 rounded-3">
+                    <span class="display-6 lh-1 text-warning mb-0"><i class="fas fa-tv"></i></span>
+                    <div class="ms-4 h6 fw-normal mb-0">
+                        <div class="d-flex">
+                            <h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="10"
+                                data-purecounter-delay="200" data-purecounter-duration="0">10</h5>
+                            <span class="mb-0 h5">دوره</span>
+                        </div>
+                        <p class="mb-0">آموزش آنلاین</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Counter item -->
+            <div class="col-sm-6 col-xl-3">
+                <div class="d-flex justify-content-center align-items-center p-4 bg-blue bg-opacity-10 rounded-3">
+                    <span class="display-6 lh-1 text-blue mb-0"><i class="fas fa-user-tie"></i></span>
+                    <div class="ms-4 h6 fw-normal mb-0">
+                        <div class="d-flex">
+                            <h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="200"
+                                data-purecounter-delay="200" data-purecounter-duration="0">200</h5>
+                            <span class="mb-0 h5">مـدرس</span>
+                        </div>
+                        <p class="mb-0">مجرب و باسابقه</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Counter item -->
+            <div class="col-sm-6 col-xl-3">
+                <div class="d-flex justify-content-center align-items-center p-4 bg-purple bg-opacity-10 rounded-3">
+                    <span class="display-6 lh-1 text-purple mb-0"><i class="fas fa-user-graduate"></i></span>
+                    <div class="ms-4 h6 fw-normal mb-0">
+                        <div class="d-flex">
+                            <h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="60"
+                                data-purecounter-delay="200" data-purecounter-duration="0">60</h5>
+                            <span class="mb-0 h5">هنرجـو</span>
+                        </div>
+                        <p class="mb-0">دانشجوی آنلاین</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Counter item -->
+            <div class="col-sm-6 col-xl-3">
+                <div class="d-flex justify-content-center align-items-center p-4 bg-info bg-opacity-10 rounded-3">
+                    <span class="display-6 lh-1 text-info mb-0"><i class="bi bi-patch-check-fill"></i></span>
+                    <div class="ms-4 h6 fw-normal mb-0">
+                        <div class="d-flex">
+                            <h5 class="purecounter mb-0 fw-bold" data-purecounter-start="0" data-purecounter-end="6"
+                                data-purecounter-delay="300" data-purecounter-duration="0">6</h5>
+                            <span class="mb-0 h5">مدرک بین المللی</span>
+                        </div>
+                        <p class="mb-0">دوره های گواهی شده</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row justify-content-center align-items-center">
+
+            <div class="col-lg-6 col-md-6 pe-5 text-start">
+                <h2 class="h1 fw-bold mb-3 text-mid">عنوان بخش دوم</h2>
+                <p class="lead text-muted text-small">
+                    درباره محصول یا خدمات ارائه شده می‌باشد.</p>
+            </div>
+            <div class="col-lg-6 col-md-6   text-end ps-5">
+                <button type="button" class="btn btn-outline-primary ">دکمه عملیات</button>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <!-- Image -->
+                    <img src="assets/images/courses/4by3/02.jpg" class="card-img-top" alt="course image">
+                    <!-- Card body -->
+                    <div class="card-body pb-0">
+                        <!-- Badge and favorite -->
+                        <div class="d-flex justify-content-between mb-2">
+                            <a href="#" class="badge bg-primary bg-opacity-10 text-primary">همه سطح</a>
+                            <a href="#" class="text-dark"><i class="far fa-heart"></i></a>
+                        </div>
+                        <!-- Title -->
+                        <h5 class="card-title fw-normal"><a href="#">دوره جامع آموزش Photoshop</a></h5>
+                        <p class="mb-2 text-truncate-2">با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک...</p>
+                        <!-- Rating star -->
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="far fa-star text-warning"></i></li>
+                            <li class="list-inline-item me-2 text-dark">4.0/5.0</li>
+                        </ul>
+                    </div>
+                    <!-- Card footer -->
+                    <div class="card-footer pt-0 pb-3">
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <span class="text-dark"><i class="far fa-clock text-danger ms-2"></i>12ساعت</span>
+                            <span class="text-dark"><i class="fas fa-table text-orange ms-2"></i>15 ویدیو</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <!-- Image -->
+                    <img src="assets/images/courses/4by3/02.jpg" class="card-img-top" alt="course image">
+                    <!-- Card body -->
+                    <div class="card-body pb-0">
+                        <!-- Badge and favorite -->
+                        <div class="d-flex justify-content-between mb-2">
+                            <a href="#" class="badge bg-primary bg-opacity-10 text-primary">همه سطح</a>
+                            <a href="#" class="text-dark"><i class="far fa-heart"></i></a>
+                        </div>
+                        <!-- Title -->
+                        <h5 class="card-title fw-normal"><a href="#">دوره جامع آموزش Photoshop</a></h5>
+                        <p class="mb-2 text-truncate-2">با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک...</p>
+                        <!-- Rating star -->
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="far fa-star text-warning"></i></li>
+                            <li class="list-inline-item me-2 text-dark">4.0/5.0</li>
+                        </ul>
+                    </div>
+                    <!-- Card footer -->
+                    <div class="card-footer pt-0 pb-3">
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <span class="text-dark"><i class="far fa-clock text-danger ms-2"></i>12ساعت</span>
+                            <span class="text-dark"><i class="fas fa-table text-orange ms-2"></i>15 ویدیو</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <!-- Image -->
+                    <img src="assets/images/courses/4by3/02.jpg" class="card-img-top" alt="course image">
+                    <!-- Card body -->
+                    <div class="card-body pb-0">
+                        <!-- Badge and favorite -->
+                        <div class="d-flex justify-content-between mb-2">
+                            <a href="#" class="badge bg-primary bg-opacity-10 text-primary">همه سطح</a>
+                            <a href="#" class="text-dark"><i class="far fa-heart"></i></a>
+                        </div>
+                        <!-- Title -->
+                        <h5 class="card-title fw-normal"><a href="#">دوره جامع آموزش Photoshop</a></h5>
+                        <p class="mb-2 text-truncate-2">با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک...</p>
+                        <!-- Rating star -->
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="far fa-star text-warning"></i></li>
+                            <li class="list-inline-item me-2 text-dark">4.0/5.0</li>
+                        </ul>
+                    </div>
+                    <!-- Card footer -->
+                    <div class="card-footer pt-0 pb-3">
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <span class="text-dark"><i class="far fa-clock text-danger ms-2"></i>12ساعت</span>
+                            <span class="text-dark"><i class="fas fa-table text-orange ms-2"></i>15 ویدیو</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <!-- Image -->
+                    <img src="assets/images/courses/4by3/01.jpg" class="card-img-top" alt="course image">
+                    <!-- Card body -->
+                    <div class="card-body pb-0">
+                        <!-- Badge and favorite -->
+                        <div class="d-flex justify-content-between mb-2">
+                            <a href="#" class="badge bg-primary bg-opacity-10 text-primary">همه سطح</a>
+                            <a href="#" class="text-dark"><i class="far fa-heart"></i></a>
+                        </div>
+                        <!-- Title -->
+                        <h5 class="card-title fw-normal"><a href="#">دوره جامع آموزش Photoshop</a></h5>
+                        <p class="mb-2 text-truncate-2">با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک...</p>
+                        <!-- Rating star -->
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="far fa-star text-warning"></i></li>
+                            <li class="list-inline-item me-2 text-dark">4.0/5.0</li>
+                        </ul>
+                    </div>
+                    <!-- Card footer -->
+                    <div class="card-footer pt-0 pb-3">
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <span class="text-dark"><i class="far fa-clock text-danger ms-2"></i>12ساعت</span>
+                            <span class="text-dark"><i class="fas fa-table text-orange ms-2"></i>15 ویدیو</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <!-- Image -->
+                    <img src="assets/images/courses/4by3/02.jpg" class="card-img-top" alt="course image">
+                    <!-- Card body -->
+                    <div class="card-body pb-0">
+                        <!-- Badge and favorite -->
+                        <div class="d-flex justify-content-between mb-2">
+                            <a href="#" class="badge bg-primary bg-opacity-10 text-primary">همه سطح</a>
+                            <a href="#" class="text-dark"><i class="far fa-heart"></i></a>
+                        </div>
+                        <!-- Title -->
+                        <h5 class="card-title fw-normal"><a href="#">دوره جامع آموزش Photoshop</a></h5>
+                        <p class="mb-2 text-truncate-2">با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک...</p>
+                        <!-- Rating star -->
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="far fa-star text-warning"></i></li>
+                            <li class="list-inline-item me-2 text-dark">4.0/5.0</li>
+                        </ul>
+                    </div>
+                    <!-- Card footer -->
+                    <div class="card-footer pt-0 pb-3">
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <span class="text-dark"><i class="far fa-clock text-danger ms-2"></i>12ساعت</span>
+                            <span class="text-dark"><i class="fas fa-table text-orange ms-2"></i>15 ویدیو</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <!-- Image -->
+                    <img src="assets/images/courses/4by3/02.jpg" class="card-img-top" alt="course image">
+                    <!-- Card body -->
+                    <div class="card-body pb-0">
+                        <!-- Badge and favorite -->
+                        <div class="d-flex justify-content-between mb-2">
+                            <a href="#" class="badge bg-primary bg-opacity-10 text-primary">همه سطح</a>
+                            <a href="#" class="text-dark"><i class="far fa-heart"></i></a>
+                        </div>
+                        <!-- Title -->
+                        <h5 class="card-title fw-normal"><a href="#">دوره جامع آموزش Photoshop</a></h5>
+                        <p class="mb-2 text-truncate-2">با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک...</p>
+                        <!-- Rating star -->
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="far fa-star text-warning"></i></li>
+                            <li class="list-inline-item me-2 text-dark">4.0/5.0</li>
+                        </ul>
+                    </div>
+                    <!-- Card footer -->
+                    <div class="card-footer pt-0 pb-3">
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <span class="text-dark"><i class="far fa-clock text-danger ms-2"></i>12ساعت</span>
+                            <span class="text-dark"><i class="fas fa-table text-orange ms-2"></i>15 ویدیو</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <!-- Image -->
+                    <img src="assets/images/courses/4by3/02.jpg" class="card-img-top" alt="course image">
+                    <!-- Card body -->
+                    <div class="card-body pb-0">
+                        <!-- Badge and favorite -->
+                        <div class="d-flex justify-content-between mb-2">
+                            <a href="#" class="badge bg-primary bg-opacity-10 text-primary">همه سطح</a>
+                            <a href="#" class="text-dark"><i class="far fa-heart"></i></a>
+                        </div>
+                        <!-- Title -->
+                        <h5 class="card-title fw-normal"><a href="#">دوره جامع آموزش Photoshop</a></h5>
+                        <p class="mb-2 text-truncate-2">با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک...</p>
+                        <!-- Rating star -->
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="far fa-star text-warning"></i></li>
+                            <li class="list-inline-item me-2 text-dark">4.0/5.0</li>
+                        </ul>
+                    </div>
+                    <!-- Card footer -->
+                    <div class="card-footer pt-0 pb-3">
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <span class="text-dark"><i class="far fa-clock text-danger ms-2"></i>12ساعت</span>
+                            <span class="text-dark"><i class="fas fa-table text-orange ms-2"></i>15 ویدیو</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card shadow h-100">
+                    <!-- Image -->
+                    <img src="assets/images/courses/4by3/01.jpg" class="card-img-top" alt="course image">
+                    <!-- Card body -->
+                    <div class="card-body pb-0">
+                        <!-- Badge and favorite -->
+                        <div class="d-flex justify-content-between mb-2">
+                            <a href="#" class="badge bg-primary bg-opacity-10 text-primary">همه سطح</a>
+                            <a href="#" class="text-dark"><i class="far fa-heart"></i></a>
+                        </div>
+                        <!-- Title -->
+                        <h5 class="card-title fw-normal"><a href="#">دوره جامع آموزش Photoshop</a></h5>
+                        <p class="mb-2 text-truncate-2">با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                            گرافیک...</p>
+                        <!-- Rating star -->
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item ms-0 small"><i class="far fa-star text-warning"></i></li>
+                            <li class="list-inline-item me-2 text-dark">4.0/5.0</li>
+                        </ul>
+                    </div>
+                    <!-- Card footer -->
+                    <div class="card-footer pt-0 pb-3">
+                        <hr>
+                        <div class="d-flex justify-content-between">
+                            <span class="text-dark"><i class="far fa-clock text-danger ms-2"></i>12ساعت</span>
+                            <span class="text-dark"><i class="fas fa-table text-orange ms-2"></i>15 ویدیو</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container position-relative">
+        <!-- SVG decoration START -->
+        <figure class="position-absolute top-50 start-50 translate-middle ms-2">
+            <svg>
+                <path class="fill-white opacity-4"
+                    d="m496 22.999c0 10.493-8.506 18.999-18.999 18.999s-19-8.506-19-18.999 8.507-18.999 19-18.999 18.999 8.506 18.999 18.999z">
+                </path>
+                <path class="fill-white opacity-4"
+                    d="m775 102.5c0 5.799-4.701 10.5-10.5 10.5-5.798 0-10.499-4.701-10.499-10.5 0-5.798 4.701-10.499 10.499-10.499 5.799 0 10.5 4.701 10.5 10.499z">
+                </path>
+                <path class="fill-white opacity-4"
+                    d="m192 102c0 6.626-5.373 11.999-12 11.999s-11.999-5.373-11.999-11.999c0-6.628 5.372-12 11.999-12s12 5.372 12 12z">
+                </path>
+                <path class="fill-white opacity-4"
+                    d="m20.499 10.25c0 5.66-4.589 10.249-10.25 10.249-5.66 0-10.249-4.589-10.249-10.249-0-5.661 4.589-10.25 10.249-10.25 5.661-0 10.25 4.589 10.25 10.25z">
+                </path>
+            </svg>
+        </figure>
+        <!-- SVG decoration END -->
+
+        <div class="row">
+            <div class="col-12">
+                <div class="bg-primary p-4 p-sm-5 rounded-3">
+                    <div class="row position-relative">
+                        <!-- Svg decoration -->
+                        <figure class="fill-white opacity-1 position-absolute top-50 start-0 translate-middle-y">
+                            <svg width="141px" height="141px">
+                                <path
+                                    d="M140.520,70.258 C140.520,109.064 109.062,140.519 70.258,140.519 C31.454,140.519 -0.004,109.064 -0.004,70.258 C-0.004,31.455 31.454,-0.003 70.258,-0.003 C109.062,-0.003 140.520,31.455 140.520,70.258 Z">
+                                </path>
+                            </svg>
+                        </figure>
+                        <!-- Action box -->
+                        <div class="col-11 mx-auto position-relative">
+                            <div class="row align-items-center">
+                                <!-- Title -->
+                                <div class="col-lg-7">
+                                    <h3 class="text-white">مدرس شویـد!</h3>
+                                    <p class="text-white mb-3 mb-lg-0">ارائه راهکارها و شرایط سخت تایپ به پایان رسد
+                                        وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای
+                                        موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                                </div>
+                                <!-- Content and input -->
+                                <div class="col-lg-5 text-lg-end">
+                                    <a href="#" class="btn btn-outline-warning mb-0">ثبت نام</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- Row END -->
+                </div>
+            </div>
+        </div> <!-- Row END -->
+    </div>
+
+    <div class="container  position-relative">
+    </div>
+
+
+
+    <div class="container-fluid p-3 my-5" style="background-color: #f5f7f9;">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-5 d-flex justify-content-center align-items-center">
+                <div class="text-center">
+                    <h3 class="mb-3 fw-bold">سلام وبلاگ یا</h3>
+                    <p class="lead mb-4">با هر موجود و با ما مقالات و وبلاگ ها</p>
+                    <button class="btn btn-outline-primary  btn-lg px-4">وبلاگ</button>
+
+                    <!-- Additional Stats -->
+                    <div class="row mt-4">
+                        <div class="col-6">
+                            <div class="text-center">
+                                <h4 class="text-primary mb-0">150+</h4>
+                                <small class="text-muted">مقالات</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="text-center">
+                                <h4 class="text-primary mb-0">50+</h4>
+                                <small class="text-muted">نویسندگان</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-7">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <div class="card card-metro overflow-hidden rounded-3">
+                            <img src="assets/images/courses/4by3/02.jpg" alt="طراحی وب">
+                            <div class="card-img-overlay d-flex flex-column">
+                                <div class="mt-auto card-text">
+                                    <a href="#" class="text-light fs-5 stretched-link text-decoration-none">طراحی وب</a>
+                                    <div><a href="#" class="text-white-50 text-decoration-none">23 دوره</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card card-metro overflow-hidden rounded-3">
+                            <img src="assets/images/courses/4by3/02.jpg" alt="برنامه نویسی">
+                            <div class="card-img-overlay d-flex flex-column">
+                                <div class="mt-auto card-text">
+                                    <a href="#" class="text-light fs-5 stretched-link text-decoration-none">برنامه
+                                        نویسی</a>
+                                    <div><a href="#" class="text-white-50 text-decoration-none">35 دوره</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card card-metro overflow-hidden rounded-3">
+                            <img src="assets/images/courses/4by3/02.jpg" alt="گرافیک">
+                            <div class="card-img-overlay d-flex flex-column">
+                                <div class="mt-auto card-text">
+                                    <a href="#" class="text-light fs-5 stretched-link text-decoration-none">گرافیک</a>
+                                    <div><a href="#" class="text-white-50 text-decoration-none">18 دوره</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card card-metro overflow-hidden rounded-3">
+                            <img src="assets/images/courses/4by3/02.jpg" alt="بازاریابی">
+                            <div class="card-img-overlay d-flex flex-column">
+                                <div class="mt-auto card-text">
+                                    <a href="#"
+                                        class="text-light fs-5 stretched-link text-decoration-none">بازاریابی</a>
+                                    <div><a href="#" class="text-white-50 text-decoration-none">12 دوره</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="container">
+            <!-- Row START -->
+            <div class="row g-4">
+
+                <!-- Widget 1 START -->
+                <div class="col-lg-6">
+                    <!-- logo -->
+                    <a class="me-0" href="index.html">
+                        <img class="light-mode-item h-40px" src="assets/images/logo.svg" alt="logo">
+                        <img class="dark-mode-item h-40px" src="assets/images/logo-light.svg" alt="logo">
+                    </a>
+                    <p class="my-3">شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا
+                        مورد استفاده قرار گیرد.</p>
+                    <!-- Social media icon -->
+                    <ul class="list-inline mb-0 mt-3">
+                        <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-facebook"
+                                href="#"><i class="fab fa-fw fa-facebook-f"></i></a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-instagram"
+                                href="#"><i class="fab fa-fw fa-instagram"></i></a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-twitter"
+                                href="#"><i class="fab fa-fw fa-twitter"></i></a> </li>
+                        <li class="list-inline-item"> <a class="btn btn-white btn-sm shadow px-2 text-linkedin"
+                                href="#"><i class="fab fa-fw fa-linkedin-in"></i></a> </li>
+                    </ul>
+                </div>
+                <!-- Widget 1 END -->
+
+                <!-- Widget 2 START -->
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <!-- Link block -->
+                        <div class="col-6 col-md-4">
+                            <h5 class="mb-2 mb-md-4">لینک های مفید</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a class="nav-link" href="#">درباره ما</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">تماس با ما</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">وبلاگ</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">تسویه حساب</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">سوالات متداول</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Link block -->
+                        <div class="col-6 col-md-4">
+                            <h5 class="mb-2 mb-md-4">راهنما و پشتیبانی</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a class="nav-link" href="#">داکیومنت</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">ارسال تیکت</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">خرید دوره</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">نقشه سایت</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Link block -->
+                        <div class="col-6 col-md-4">
+                            <h5 class="mb-2 mb-md-4">لینک های سریع</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a class="nav-link" href="#">جذب مدرس</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">مشاوره رایگان</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">شرایط و قوانین</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Widget 2 END -->
+
+            </div><!-- Row END -->
+
+            <!-- Divider -->
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
